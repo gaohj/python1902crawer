@@ -6,10 +6,9 @@ headers = {
 }
 
 ip_list = [
-    {"http":"59.57.148.122:9999"},
-    {"http":"115.29.170.58:8118"},
-    {"http":"163.125.115.116:8118"},
-    {"http":"47.101.36.129:8118"},
+    {"http":"115.213.166.147:4223"},
+    {"http":"115.213.167.2:4223"},
+    {"http":"115.230.10.16:4223"},
 ]
 
 
@@ -26,12 +25,12 @@ proxy_handler = urllib.request.ProxyHandler(proxies=proxy)
 #使用代理句柄创建打开器
 opener = urllib.request.build_opener(proxy_handler)
 
-url = "http://www.ifeng.com"
+url = "http://www.baidu.com"
 
-req = urllib.request.Request(url=url,headers=headers)
+req = urllib.request.Request(url,headers=headers)
 
 req.add_header('User-Agent',random.choice(ua_list))
 
 resp = opener.open(req)
-print(resp.read().decode('utf-8'))
+print(resp)
 

@@ -8,7 +8,7 @@ resp = request.urlopen(url)
 #使用代理
 url1 = 'http://httpbin.org/ip'
 #创建一个代理句柄
-handler = request.ProxyHandler({"http":"120.25.212.26:8118"})
+handler = request.ProxyHandler({"http":"115.213.166.147:4223"})
 
 #使用代理句柄创建一个打开器
 opener = request.build_opener(handler)
