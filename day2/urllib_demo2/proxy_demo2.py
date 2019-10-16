@@ -6,9 +6,9 @@ headers = {
 }
 
 ip_list = [
-    {"http":"115.213.166.147:4223"},
-    {"http":"115.213.167.2:4223"},
-    {"http":"115.230.10.16:4223"},
+    {"http":"58.218.200.228:7911"},
+    {"http":"158.218.200.227:6497"},
+    {"http":"58.218.200.223:7867"},
 ]
 
 
@@ -25,7 +25,7 @@ proxy_handler = urllib.request.ProxyHandler(proxies=proxy)
 #使用代理句柄创建打开器
 opener = urllib.request.build_opener(proxy_handler)
 
-url = "http://www.baidu.com"
+url = "http://httpbin.org/ip"
 
 req = urllib.request.Request(url,headers=headers)
 
