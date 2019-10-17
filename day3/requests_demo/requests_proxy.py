@@ -24,3 +24,4 @@ ip_list = random.choice(ip_list)
 url = 'http://httpbin.org/ip'
 response = requests.get(url,headers=headers,proxies=ip_list)
 print(response.content.decode('utf-8'))
+
