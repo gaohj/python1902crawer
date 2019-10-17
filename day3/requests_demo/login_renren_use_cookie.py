@@ -20,7 +20,8 @@ url = "http://www.renren.com/541197383/profile"
 filename = 'renrencookie.txt'
 
 cookies = cookiejar.LWPCookieJar()
-cookies.load(filename=filename,ignore_discard=True)
+#即使cookie失效 也保存  即使过期也保存
+cookies.load(filename=filename,ignore_discard=True,ignore_expires=True)
 cookie_jar = urllib.request.HTTPCookieProcessor(cookies)
 opener = urllib.request.build_opener(cookie_jar)
 urllib.request.install_opener(opener)

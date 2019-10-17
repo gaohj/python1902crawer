@@ -32,9 +32,9 @@ data = {
 filename = 'renrencookie.txt'
 
 cookies = cookiejar.LWPCookieJar(filename=filename)
-cookie_jar = urllib.request.HTTPCookieProcessor(cookies)
-opener = urllib.request.build_opener(cookie_jar)
-urllib.request.install_opener(opener)
+handler = urllib.request.HTTPCookieProcessor(cookies)
+opener = urllib.request.build_opener(handler)
+urllib.request.install_opener(opener) #全局打开器
 
 data = urllib.parse.urlencode(data).encode()
 req = urllib.request.Request(url=url,data=data,headers=headers)
