@@ -28,20 +28,24 @@ def get_son_url(url):
     href_list = re.findall(href_re,html,re.S)
     return href_list
 
-def deep_crawer(url):
-    if deep_dict[url] > 3:
-        return
-    print("*"*100)
-    print("\t"*deep_dict[url],"当前层级为:%d" % deep_dict[url])
-    print("*"*100)
-    #获取子url列表
-    son_url_list = get_son_url(url)
-    for son_url in son_url_list:
-        #过滤有效链接  http开头就是有效链接
-        if son_url.startswith('http') or son_url.startswith('https'):
-            if son_url not in deep_dict:
-                deep_dict[son_url] = deep_dict[url]+1
-                deep_crawer(son_url)
+def width_crawer(start_url):
+   url_quene = [] #模拟队列
+   url_quene.append(start_url) #让起始页先进队列
+   while len(url_quene)>0:
+        #先处理起始页
+        url = url_quene.pop(0)
+        print("\t"*deep_dict[url],"当前层级为:%d" % deep_dict[url])
+        if deep_dict[url] <=3: #只捕获到第三级
+            #获取起始页的子url列表
+            son_url_list = get_son_url(url)
+            for son_url in son_url_list:
+                #过滤出有效链接
+                if son_url.startswith('http') or son_url.startswith('https'):
+                    if son_url not in deep_dict:
+                        #层架控制 子url作为key  层级=父url的层级+1
+                        deep_dict[son_url] = deep_dict[url]+1
+                        #将子url进入队列
+                        url_quene.append(son_url)
 
 
 
@@ -51,4 +55,4 @@ if __name__ == "__main__":
 
     deep_dict = {} #层级控制
     deep_dict[url] = 1
-    deep_crawer(url)
+    width_crawer(url)
