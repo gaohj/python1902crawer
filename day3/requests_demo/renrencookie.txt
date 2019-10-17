@@ -1,0 +1,7 @@
+#LWP-Cookies-2.0
+Set-Cookie3: _de=28A69782AB906D4A677B8FA35C706602; path="/"; domain=".renren.com"; path_spec; domain_dot; expires="2020-10-11 02:20:19Z"; version=0
+Set-Cookie3: anonymid="k1u2u8by-39fim5"; path="/"; domain=".renren.com"; path_spec; domain_dot; expires="2024-10-15 02:20:19Z"; version=0
+Set-Cookie3: ap=541197383; path="/"; domain=".renren.com"; path_spec; expires="2019-11-16 02:20:19Z"; version=0
+Set-Cookie3: ln_hurl="http://head.xiaonei.com/photos/0/0/men_main.gif"; path="/"; domain=".renren.com"; path_spec; expires="2019-11-16 02:20:19Z"; version=0
+Set-Cookie3: ln_uact="gaohj5@163.com"; path="/"; domain=".renren.com"; path_spec; expires="2019-11-16 02:20:19Z"; version=0
+Set-Cookie3: p=d3382dac0b632c6b08b58193041497243; path="/"; domain=".renren.com"; path_spec; expires="2019-11-16 02:20:19Z"; version=0

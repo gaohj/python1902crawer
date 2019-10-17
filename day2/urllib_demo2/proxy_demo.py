@@ -3,12 +3,12 @@ from urllib import request
 url = 'http://httpbin.org/ip'
 
 resp = request.urlopen(url)
-# print(resp.read())
+print(resp.read())
 
 #使用代理
 url1 = 'http://httpbin.org/ip'
 #创建一个代理句柄
-handler = request.ProxyHandler({"http":"115.213.166.147:4223"})
+handler = request.ProxyHandler({"http":"58.253.156.236:9999"})
 
 #使用代理句柄创建一个打开器
 opener = request.build_opener(handler)

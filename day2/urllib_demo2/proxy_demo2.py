@@ -6,10 +6,12 @@ headers = {
 }
 
 ip_list = [
-    {"http":"58.218.200.228:7911"},
-    {"http":"158.218.200.227:6497"},
-    {"http":"58.218.200.223:7867"},
+    {"http": "http://58.253.156.236:9999"},
+    {"http": "http://120.83.108.103:9999"},
+    {"http": "http://120.234.138.101:53779"},
+    {"http": "http://163.125.115.186:8118"},
 ]
+
 
 
 ua_list = [
@@ -19,6 +21,7 @@ ua_list = [
 ]
 
 proxy = random.choice(ip_list)
+print(proxy)
 #创建代理句柄
 proxy_handler = urllib.request.ProxyHandler(proxies=proxy)
 
@@ -32,5 +35,6 @@ req = urllib.request.Request(url,headers=headers)
 req.add_header('User-Agent',random.choice(ua_list))
 
 resp = opener.open(req)
-print(resp)
+
+print(resp.read())
 
