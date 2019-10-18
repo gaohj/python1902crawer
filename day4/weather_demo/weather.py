@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+from pyecharts.charts import Bar
 
 DATA = []
 def parse_page(url):
@@ -50,7 +51,25 @@ def main():
 
     for url in urls:
         parse_page(url)
+    DATA.sort(key=lambda data: data['max_temp'],reverse=True)
+    data = DATA[0:10]
+    print(data)
+    cities = list(map(lambda x: x['city'],data))
+    max_temp = list(map(lambda x: x['max_temp'],data))
+    # max_temp = [10,20,30]
+    bar = Bar()
+    bar.add_xaxis(cities)
+    bar.add_yaxis("全国最高气温排行榜", max_temp)
+    bar.render('temperature.html')
 
-    print(DATA)
 if __name__ == "__main__":
     main()
+    # DATA = [
+    #     {'city':'武汉','max_temp':29},
+    #     {'city':'襄阳','max_temp':23},
+    #     {'city':'鄂州','max_temp':25}
+    # ]
+    #
+    # DATA.sort(key=lambda data:data['max_temp'])
+    # print(DATA[0:2])
+
