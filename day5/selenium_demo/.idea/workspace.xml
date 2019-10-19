@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="639691e0-94b0-46eb-bba5-f6c0f36eb8d9" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/12306.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo11.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +16,7 @@
     <SUITE FILE_PATH="coverage/selenium_demo$demo9.coverage" NAME="demo9 Coverage Results" MODIFIED="1571472982248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_demo$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1571468234735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_demo$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1571457796114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/selenium_demo$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1571475657289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_demo$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1571479386270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_demo$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1571468646357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_demo$demo7.coverage" NAME="demo7 Coverage Results" MODIFIED="1571471519635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_demo$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1571457916002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -37,23 +36,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="png" value="1" />
-          <entry key="py" value="16" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="16" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1544" />
+          <entry key="py" value="2355" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1544" />
+          <entry key="Python" value="2355" />
         </counts>
       </usages-collector>
     </session>
@@ -96,14 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="1" selection-start-column="53" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -123,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="43" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -132,13 +128,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/12306.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="14" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="420">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding>
-                <element signature="e#190#220#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <marker date="1571479381071" expanded="true" signature="288:293" ph="..." />
+                <marker date="1571479381071" expanded="true" signature="1262:1676" ph="..." />
               </folding>
             </state>
           </provider>
@@ -169,8 +167,8 @@
         <option value="$PROJECT_DIR$/demo8.py" />
         <option value="$PROJECT_DIR$/demo9.py" />
         <option value="$PROJECT_DIR$/demo10.py" />
-        <option value="$PROJECT_DIR$/12306.py" />
         <option value="$PROJECT_DIR$/demo11.py" />
+        <option value="$PROJECT_DIR$/12306.py" />
       </list>
     </option>
   </component>
@@ -223,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo11">
+  <component name="RunManager" selected="Python.12306">
     <configuration name="12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="selenium_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,8 +341,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo11" />
         <item itemvalue="Python.12306" />
+        <item itemvalue="Python.demo11" />
         <item itemvalue="Python.demo10" />
         <item itemvalue="Python.demo9" />
         <item itemvalue="Python.demo8" />
@@ -365,11 +363,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -506,26 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12306.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="14" column="32" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="e#190#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -538,10 +516,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="84">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="1" selection-start-column="53" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="43" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12306.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1571479381071" expanded="true" signature="288:293" ph="..." />
+            <marker date="1571479381071" expanded="true" signature="1262:1676" ph="..." />
           </folding>
         </state>
       </provider>
