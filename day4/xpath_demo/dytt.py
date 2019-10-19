@@ -104,7 +104,8 @@ def spider():
         for detail_url in detail_urls:
             movie = parse_detail_page(detail_url)
             movies.append(movie)
-    print(movies)
+            print(movie)
+    print(len(movies))
 
 if __name__ == "__main__":
     spider()
