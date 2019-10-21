@@ -8,7 +8,7 @@ import threading
 import time
 gCondition = threading.Condition()
 gMoney = 1000
-gTotalTime = 10  #规定次数
+gTotalTime = 30  #规定次数
 gTime = 0
 
 
@@ -52,7 +52,7 @@ class CustomerThread(threading.Thread):
 
 
 def main():
-    for x in range(5):
+    for x in range(3):
         t = ProducerThread()
         t.start()
     for x in range(3):
