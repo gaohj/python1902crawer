@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2115800-3d6c-4943-9874-2a07d022b977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="eba28b2d-3853-4bf1-bc32-99bf50a096c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../bsbdj/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/captcha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bsbdj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bsbdj/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/bsbdj$test.coverage" NAME="test Coverage Results" MODIFIED="1571712281140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/bsbdj$bsbdj.coverage" NAME="bsbdj Coverage Results" MODIFIED="1571710609064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tesseract$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1571715720447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tesseract$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1571716324012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1471083602">
+    <session id="1824704400">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
@@ -23,45 +31,60 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="csv" value="1" />
-          <entry key="py" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3" />
-        </counts>
-      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1241" />
+          <entry key="py" value="273" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1241" />
+          <entry key="Python" value="273" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="3" />
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bsbdj.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="168">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="25" />
               <folding>
-                <element signature="e#16#39#0" expanded="true" />
-                <marker date="1571710609046" expanded="true" signature="337:342" ph="..." />
-                <marker date="1571710609046" expanded="true" signature="399:586" ph="..." />
-                <marker date="1571710609046" expanded="true" signature="1988:1993" ph="..." />
+                <element signature="e#16#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding>
+                <element signature="e#16#34#0" expanded="true" />
+                <marker date="1571716319540" expanded="true" signature="103:612" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captcha.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -79,8 +102,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bsbdj.py" />
-        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/demo1.py" />
+        <option value="$PROJECT_DIR$/demo2.py" />
       </list>
     </option>
   </component>
@@ -107,8 +130,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="bsbdj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="tesseract" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tesseract" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,6 +143,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\wh1902\crawer\day7\tesseract" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,9 +161,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="bsbdj" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bsbdj" />
+  <component name="RunManager" selected="Python.demo2">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tesseract" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -147,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bsbdj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,8 +184,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bsbdj" />
+    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tesseract" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -169,7 +197,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,13 +207,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.bsbdj" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.demo1" />
+      <item itemvalue="Python.demo2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.bsbdj" />
+        <item itemvalue="Python.demo2" />
+        <item itemvalue="Python.demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -194,11 +222,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2115800-3d6c-4943-9874-2a07d022b977" name="Default Changelist" comment="" />
-      <created>1571708162278</created>
+      <changelist id="eba28b2d-3853-4bf1-bc32-99bf50a096c4" name="Default Changelist" comment="" />
+      <created>1571715221309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571708162278</updated>
+      <updated>1571715221309</updated>
     </task>
     <servers />
   </component>
@@ -212,11 +240,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32884097" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6603774" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44474393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,36 +263,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/c.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://C:/Python/Python36/Lib/queue.py">
+    <entry file="file://$PROJECT_DIR$/demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="146" column="42" selection-start-line="146" selection-start-column="30" selection-end-line="146" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bsbdj.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1301">
-          <caret line="323" column="68" selection-start-line="323" selection-start-column="53" selection-end-line="323" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bsbdj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="168">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#16#39#0" expanded="true" />
-            <marker date="1571710609046" expanded="true" signature="337:342" ph="..." />
-            <marker date="1571710609046" expanded="true" signature="399:586" ph="..." />
-            <marker date="1571710609046" expanded="true" signature="1988:1993" ph="..." />
+            <element signature="e#16#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/crawer1902/Lib/site-packages/pytesseract/pytesseract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="334" column="25" selection-start-line="334" selection-start-column="25" selection-end-line="334" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#16#34#0" expanded="true" />
+            <marker date="1571716319540" expanded="true" signature="103:612" ph="..." />
           </folding>
         </state>
       </provider>
