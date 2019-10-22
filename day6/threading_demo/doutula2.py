@@ -6,7 +6,7 @@ from lxml import etree
 import threading
 from queue import Queue
 proxy = {
-    'http':"119.27.181.141:8080"
+    'http':"121.226.214.26:9999"
 }
 headers = {
     'User-Agent':"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
