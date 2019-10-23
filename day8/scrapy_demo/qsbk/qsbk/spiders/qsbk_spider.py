@@ -11,6 +11,7 @@ class QsbkSpiderSpider(scrapy.Spider):
     #提取想要的数据
     #生成下个请求的url
     def parse(self, response):
+
         descs = response.xpath("//div[@class='j-r-list-c-desc']")
         for desc in descs:
             jokes = desc.xpath(".//text()").getall()
@@ -20,3 +21,9 @@ class QsbkSpiderSpider(scrapy.Spider):
             # link = self.base_domain+links
             item= QsbkItem(joke=joke,links=links)
             yield item
+        next_url = response.xpath("//a[@class='pagenxt']/@href").get()
+        print(self.base_domain+"/text/"+next_url)
+        if not next_url:
+            return
+        else:
+            yield scrapy.Request(self.base_domain+"/text/"+next_url,callback=self.parse)
