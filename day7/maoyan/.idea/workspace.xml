@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf763037-0419-4a79-a6f7-c3cb5fb93005" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shixiseng.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf763037-0419-4a79-a6f7-c3cb5fb93005" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,7 @@
     <session id="1016754294">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -64,7 +62,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shixiseng.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1075">
+            <state relative-caret-position="-319">
               <caret line="31" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -300,7 +298,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shixiseng.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
+        <state relative-caret-position="-319">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
