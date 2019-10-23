@@ -22,7 +22,6 @@ class QsbkSpiderSpider(scrapy.Spider):
             item= QsbkItem(joke=joke,links=links)
             yield item
         next_url = response.xpath("//a[@class='pagenxt']/@href").get()
-        print(self.base_domain+"/text/"+next_url)
         if not next_url:
             return
         else:
