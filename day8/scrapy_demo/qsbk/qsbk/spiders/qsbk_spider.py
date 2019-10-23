@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from qsbk.items import QsbkItem
-
+from scrapy.http.response.html import HtmlResponse
 class QsbkSpiderSpider(scrapy.Spider):
     name = 'qsbk_spider'
     allowed_domains = ['budejie.com']
