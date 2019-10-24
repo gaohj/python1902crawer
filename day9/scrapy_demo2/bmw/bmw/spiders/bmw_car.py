@@ -16,4 +16,4 @@ class BmwCarSpider(scrapy.Spider):
             #     img_url = response.urljoin(img_url)
             #     print(img_url)
             urls = list(map(lambda img_url:response.urljoin(img_url),img_urls))
-            yield BmwItem(category=category,urls=urls)
+            yield BmwItem(category=category,image_urls=urls)

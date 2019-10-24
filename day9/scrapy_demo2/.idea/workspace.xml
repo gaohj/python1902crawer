@@ -2,11 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e28d26-0a7e-4438-ae6c-e43141e2380a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bmw/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/bmw/test_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bmw/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day8/scrapy_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day8/scrapy_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day8/scrapy_demo/useragent_demo/useragent_demo/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../day8/scrapy_demo/useragent_demo/useragent_demo/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/bmw/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/bmw/bmw/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/bmw/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bmw/bmw/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChcCSF2J-8OAPNlMAAjph6Y7Au8470.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChcCSV2J-72AAhdDAAehvxD32EM448.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChsEf12J-7eAOhboAAV0GpJzr0c784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChsEkF2J-5WAWV6lAAVcYTN2YDo531.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChsEml2J-5eAEckqAAVpdxya8Hs792.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChsEoF2J-7uAKMeKAAcLCy96pCU909.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/ChsEoF2J-8CAUie6AAcz-nldAQM455.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/中控方向盘/rPDTuFE164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/AAWgiAQTjc8677.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChcCRV2J-t2AKtl6AAecP43r9VA500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChcCRV2J-tWAYKpeAAUmkw7NEwQ059.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChcCRV2J-teAYMC3AAah0O0frSA485.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChcCRV2J-uuAIWtaAAf9k9wJm1k146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChsEkV2J-ueAILu3AAdyVCNmnEE758.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/ChsEm12J-uOAT4fbAAXLVEFg5xI085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/其它细节/Ev8eQY840.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221937277794122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221937507274122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221937544014122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221937587764122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221938030124122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221938076224122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221938116314122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/改装/201208221938156714122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/K-ACcZUAAWxabzzzjU463.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/KWAcTR5AAZLz58eVUE057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/KmAM7ZEAAcaX6Yx-rA249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/KyAD89vAASu7qgaNMY500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/LGAOy6BAAZMruOL1GA005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/UOAPp2jAAqoWueuXuE857.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/UaAJd6hAAkHRaIFoJo900.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车厢座椅/VWAXHVrAAmLoR0dypc621.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/AApJMkR9wFw947.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/V2ALxyiAAtjA1d3Miw622.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/ViATCIwAAs4GQJWh4U245.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/WGAeZj0AAsMyHXaAwo158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/WaAfgKxAA1OfvlnkkQ290.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/XGAXP0pAAtylyqMfeQ144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/bFr5ewQ268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bmw/images/车身外观/bjoZI069.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +55,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/scrapy_demo2$test_path__1_.coverage" NAME="test_path (1) Coverage Results" MODIFIED="1571887583579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw/bmw" />
     <SUITE FILE_PATH="coverage/scrapy_demo2$test_path.coverage" NAME="test_path Coverage Results" MODIFIED="1571887493470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw" />
-    <SUITE FILE_PATH="coverage/scrapy_demo2$start.coverage" NAME="start Coverage Results" MODIFIED="1571888163299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw" />
+    <SUITE FILE_PATH="coverage/scrapy_demo2$start.coverage" NAME="start Coverage Results" MODIFIED="1571889079257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -32,22 +70,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="19" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="19" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="944" />
+          <entry key="py" value="1084" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="944" />
+          <entry key="Python" value="1084" />
         </counts>
       </usages-collector>
     </session>
@@ -55,13 +93,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmw/bmw/middlewares.py">
+        <entry file="file://$PROJECT_DIR$/bmw/bmw/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="87" column="28" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="28" />
-              <folding>
-                <element signature="e#3131#3488#0" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -70,22 +105,9 @@
         <entry file="file://$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="48" />
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmw/bmw/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-              <folding>
-                <element signature="e#194#203#0" expanded="true" />
-                <marker date="1571888080205" expanded="true" signature="295:382" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,17 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bmw/bmw/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="67" selection-start-line="67" selection-end-line="69" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bmw/bmw/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="423">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -113,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/bmw/start.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
-              <caret line="2" column="14" lean-forward="true" selection-end-line="2" selection-end-column="45" />
+              <caret line="2" column="19" selection-end-line="2" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -133,12 +146,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bmw/start.py" />
         <option value="$PROJECT_DIR$/bmw/bmw/spiders/bmw5.py" />
-        <option value="$PROJECT_DIR$/bmw/bmw/items.py" />
-        <option value="$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py" />
         <option value="$PROJECT_DIR$/bmw/test_path.py" />
         <option value="$PROJECT_DIR$/bmw/bmw/pipelines.py" />
+        <option value="$PROJECT_DIR$/bmw/start.py" />
+        <option value="$PROJECT_DIR$/bmw/bmw/items.py" />
+        <option value="$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py" />
         <option value="$PROJECT_DIR$/bmw/bmw/settings.py" />
       </list>
     </option>
@@ -178,6 +191,13 @@
               <item name="scrapy_demo2" type="462c0819:PsiDirectoryNode" />
               <item name="bmw" type="462c0819:PsiDirectoryNode" />
               <item name="bmw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scrapy_demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scrapy_demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="bmw" type="462c0819:PsiDirectoryNode" />
+              <item name="bmw" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,10 +428,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bmw/bmw/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
+            <marker date="1571888080205" expanded="true" signature="295:382" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bmw/bmw/spiders/bmw_car.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="48" />
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
@@ -421,32 +452,21 @@
     <entry file="file://$PROJECT_DIR$/bmw/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="2" column="14" lean-forward="true" selection-end-line="2" selection-end-column="45" />
+          <caret line="2" column="19" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bmw/bmw/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bmw/bmw/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-          <folding>
-            <element signature="e#194#203#0" expanded="true" />
-            <marker date="1571888080205" expanded="true" signature="295:382" ph="..." />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bmw/bmw/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="67" selection-start-line="67" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="423">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
