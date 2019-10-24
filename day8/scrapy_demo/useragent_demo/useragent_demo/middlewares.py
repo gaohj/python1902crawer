@@ -125,5 +125,5 @@ class IPProxyDownloadMiddlewares(object):
     #     proxy = "http://112.74.108.33:16816"
     #     user_password = "gaohj5:ddk5fr4z"
     #     request.meta['proxy'] = proxy
-    #     b64_user_password = base64.b64encode(user_password.encode('ascii'))
+    #     b64_user_password = base64.b64encode(user_password.encode('utf-8'))
     #     request.headers['Proxy-Authorization'] = 'Basic ' + b64_user_password.decode('utf-8')
