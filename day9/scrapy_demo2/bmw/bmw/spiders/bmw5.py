@@ -2,7 +2,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-
+from bmw.items import BmwItem
 
 class Bmw5Spider(CrawlSpider):
     name = 'bmw5'
@@ -10,15 +10,20 @@ class Bmw5Spider(CrawlSpider):
     start_urls = ['http://autohome.com.cn/']
 
     rules = (
-        Rule(LinkExtractor(allow=r'Items/'), callback='parse_item', follow=True),
+        Rule(LinkExtractor(allow=r'https://car.autohome.com.cn/pic/series/65.+'), callback='parse_item', follow=True),
     )
 
+    #https://car.autohome.com.cn/pic/series/65-1.html
+    #https://car.autohome.com.cn/pic/series/65-10.html
+    #https://car.autohome.com.cn/pic/series/65-3.html
+    #https://car.autohome.com.cn/pic/series/65-12.html
+
     def parse_item(self, response):
-        item = {}
-        #item['domain_id'] = response.xpath('//input[@id="sid"]/@value').get()
-        #item['name'] = response.xpath('//div[@id="name"]').get()
-        #item['description'] = response.xpath('//div[@id="description"]').get()
-        scrapy.Request(errback=self.test_error)
-        return item
-    def test_error(self):
-        pass
+        category = response.xpath("//div[@class='uibox']/div/text()").get()
+        srcs = response.xpath("//div[contains(@class,'uibox-con')]/ul/li//img/@src").getall()
+        # print(srcs)
+        # for src in srcs:
+        #     src = response.urljoin(src)
+        #     print(src)
+        srcs = list(map(lambda x:response.urljoin(x.replace("240x180_0_q95_c42_","")),srcs))
+        yield BmwItem(category=category,image_urls=srcs)
