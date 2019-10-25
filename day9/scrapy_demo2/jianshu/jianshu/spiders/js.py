@@ -18,9 +18,9 @@ class JsSpider(CrawlSpider):
         pub_time = response.xpath("////*[@id='__next']/div[1]/div/div/section[1]/div[1]/div/time/text()").get()
         word_count = response.xpath('//*[@id="__next"]/div[1]/div/div/section[1]/div[1]/div/span[2]/text()').get()
         # word_count = word_count.replace("字数 ","")
-        word_count = word_count.split(" ")[-1]
+        # word_count = word_count.split(" ")[-1]
         read_count = response.xpath('//*[@id="__next"]/div[1]/div/div/section[1]/div[1]/div/span[3]/text()').get()
-        read_count = read_count.split(" ")[-1]
+        # read_count = read_count.split(" ")[-1]
         content = response.xpath('//article[@class="_2rhmJa"]//p/text()').getall()
         content = "".join(content).strip()
 

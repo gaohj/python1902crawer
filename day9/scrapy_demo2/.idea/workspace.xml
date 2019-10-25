@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34e28d26-0a7e-4438-ae6c-e43141e2380a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scrapy_demo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jianshu/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day8/scrapy_demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day8/scrapy_demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianshu/jianshu/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu/jianshu/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianshu/jianshu/spiders/js.py" beforeDir="false" afterPath="$PROJECT_DIR$/jianshu/jianshu/spiders/js.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +15,7 @@
     <SUITE FILE_PATH="coverage/scrapy_demo2$test_path__1_.coverage" NAME="test_path (1) Coverage Results" MODIFIED="1571887583579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw/bmw" />
     <SUITE FILE_PATH="coverage/scrapy_demo2$bmw5.coverage" NAME="bmw5 Coverage Results" MODIFIED="1571901022656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw/bmw/spiders" />
     <SUITE FILE_PATH="coverage/scrapy_demo2$js.coverage" NAME="js Coverage Results" MODIFIED="1571933594324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshu/jianshu/spiders" />
-    <SUITE FILE_PATH="coverage/scrapy_demo2$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1571969056075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshu" />
+    <SUITE FILE_PATH="coverage/scrapy_demo2$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1571969741381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jianshu" />
     <SUITE FILE_PATH="coverage/scrapy_demo2$test_path.coverage" NAME="test_path Coverage Results" MODIFIED="1571887493470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw" />
     <SUITE FILE_PATH="coverage/scrapy_demo2$start.coverage" NAME="start Coverage Results" MODIFIED="1571905664555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bmw" />
   </component>
@@ -31,7 +26,7 @@
     <session id="-1383696211">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.opened" value="2" />
@@ -49,12 +44,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3980" />
+          <entry key="py" value="4149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="3979" />
+          <entry key="Python" value="4148" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -65,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshu/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="126">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -92,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jianshu/jianshu/spiders/js.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="90">
+              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -101,41 +96,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianshu/jianshu/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jianshu/jianshu/pipelines.py">
+        <entry file="file://$PROJECT_DIR$/jianshu/jianshu/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1137">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="381">
+              <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
               <folding>
-                <element signature="e#194#208#0" expanded="true" />
-                <marker date="1571969039804" expanded="true" signature="712:966" ph="..." />
-                <marker date="1571969039804" expanded="true" signature="2291:2461" ph="..." />
+                <element signature="e#170#196#0" expanded="true" />
+                <marker date="1571970348957" expanded="true" signature="2900:2905" ph="..." />
+                <marker date="1571970348957" expanded="true" signature="2900:2906" ph="..." />
+                <marker date="1571970348957" expanded="true" signature="2925:3137" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/jiangxiligong/crawer1902/Lib/site-packages/twisted/internet/defer.py">
+        <entry file="file://$PROJECT_DIR$/jianshu/jianshu/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="324" column="32" selection-start-line="324" selection-start-column="25" selection-end-line="324" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/jiangxiligong/crawer1902/Lib/site-packages/twisted/enterprise/adbapi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="308" column="37" lean-forward="true" selection-start-line="308" selection-start-column="37" selection-end-line="308" selection-end-column="37" />
+            <state relative-caret-position="2772">
+              <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding>
-                <element signature="e#235#245#0" expanded="true" />
+                <element signature="e#194#208#0" expanded="true" />
+                <marker date="1571969188339" expanded="true" signature="712:966" ph="..." />
+                <marker date="1571969188339" expanded="true" signature="2297:2467" ph="..." />
               </folding>
             </state>
           </provider>
@@ -165,9 +149,10 @@
         <option value="$PROJECT_DIR$/bmw/bmw/spiders/bmw5.py" />
         <option value="$PROJECT_DIR$/jianshu/start.py" />
         <option value="$PROJECT_DIR$/jianshu/jianshu/items.py" />
-        <option value="$PROJECT_DIR$/jianshu/jianshu/spiders/js.py" />
         <option value="$PROJECT_DIR$/jianshu/jianshu/settings.py" />
         <option value="$PROJECT_DIR$/jianshu/jianshu/pipelines.py" />
+        <option value="$PROJECT_DIR$/jianshu/jianshu/spiders/js.py" />
+        <option value="$PROJECT_DIR$/jianshu/jianshu/middlewares.py" />
       </list>
     </option>
   </component>
@@ -196,11 +181,6 @@
             <path>
               <item name="scrapy_demo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrapy_demo2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapy_demo2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrapy_demo2" type="462c0819:PsiDirectoryNode" />
-              <item name="bmw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scrapy_demo2" type="b2602c69:ProjectViewProjectNode" />
@@ -420,9 +400,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,9 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://C:/jiangxiligong/crawer1902/Lib/site-packages/pymysql/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -548,19 +524,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/spiders/js.py">
+    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/jiangxiligong/crawer1902/Lib/site-packages/twisted/enterprise/adbapi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="5754">
           <caret line="308" column="37" lean-forward="true" selection-start-line="308" selection-start-column="37" selection-end-line="308" selection-end-column="37" />
           <folding>
             <element signature="e#235#245#0" expanded="true" />
@@ -575,28 +548,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/settings.py">
+    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+        <state relative-caret-position="2772">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <element signature="e#194#208#0" expanded="true" />
+            <marker date="1571969188339" expanded="true" signature="712:966" ph="..." />
+            <marker date="1571969188339" expanded="true" signature="2297:2467" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/spiders/js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianshu/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="126">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/jianshu/jianshu/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="381">
+          <caret line="78" column="67" selection-start-line="78" selection-start-column="67" selection-end-line="78" selection-end-column="67" />
           <folding>
-            <element signature="e#194#208#0" expanded="true" />
-            <marker date="1571969039804" expanded="true" signature="712:966" ph="..." />
-            <marker date="1571969039804" expanded="true" signature="2291:2461" ph="..." />
+            <element signature="e#170#196#0" expanded="true" />
+            <marker date="1571970348957" expanded="true" signature="2900:2905" ph="..." />
+            <marker date="1571970348957" expanded="true" signature="2900:2906" ph="..." />
+            <marker date="1571970348957" expanded="true" signature="2925:3137" ph="..." />
           </folding>
         </state>
       </provider>
